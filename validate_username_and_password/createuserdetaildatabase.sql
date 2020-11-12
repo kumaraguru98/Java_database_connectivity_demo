@@ -1,0 +1,13 @@
+create database logindata;
+use logindata;
+create table login (uname varchar(20),pass varchar(20));
+insert into login values('UserName1','Password1');
+insert into login values('UserName2','Password2');
+insert into login values('UserName3','Password3');
+insert into login values('UserName4','Password4');
+insert into login values('UserName5','Password5');
+insert into login values('UserName6','Password6');
+insert into login values('UserName7','Password7');
+insert into login values('UserName8','Password8');
+insert into login values('UserName9','Password9');
+select * from login;
